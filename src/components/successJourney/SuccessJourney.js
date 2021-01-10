@@ -5,6 +5,7 @@ import stepThree from '../../utils/stepThree.png'
 import successBg from '../../utils/successBg.png'
 import successRightBg from '../../utils/successRightBg.png'
 import './style-comp/journey.scss'
+import 'pure-react-carousel/dist/react-carousel.es.css';
 
 function SuccessJourney() {
     return (
@@ -15,7 +16,7 @@ function SuccessJourney() {
             <div className='right-bg'>
                 <img src={successRightBg} alt='waveRight-bg'/>
             </div>
-            <p>YOUR journey to SUCCESS</p> 
+            <p>YOUR JOURNEY TO SUCCESS</p> 
             <div className='heading'>
                 <h1>How Perfeth Academy Works</h1>
             </div>
