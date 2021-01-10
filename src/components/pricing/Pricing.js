@@ -1,12 +1,30 @@
 import React from 'react'
 import course from '../../utils/course.png'
 import {GiStopwatch} from 'react-icons/gi'
+import pricingLeftBg from '../../utils/pricingLeftBg.png'
+import pricingRightBg from '../../utils/pricingRightBg.png'
+import hexagon from '../../utils/hexagon.png'
 
 import './style-comp/pricing.scss'
 
 function Pricing() {
     return (
         <div className='pricing'>
+            <div className='left-bg'>
+                <img src={pricingLeftBg} alt='bg' />
+            </div>
+            <div className='right-bg'>
+                <img src={pricingRightBg} alt='right-bg' />
+            </div>
+            <div className='hexagon-1'>
+                <img src={hexagon} alt='hexagon' />
+            </div>
+            <div className='hexagon-2'>
+                <img src={hexagon} alt='hexagon' />
+            </div>
+            <div className='hexagon-3'>
+                <img src={hexagon} alt='hexagon' />
+            </div>
             <p>PRICING</p>
             <h1>We At Perfeth Invest In You</h1>
             <h3>You Pay 20% and rest paid by your employer when Perfeth gets you the job</h3>
