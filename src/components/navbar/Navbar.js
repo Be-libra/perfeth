@@ -11,6 +11,7 @@ function Navbar() {
     const [mobileNavState,setMobileNavState] = useState(false)
 
     useEffect(() => {
+        console.log(window.innerWidth)
         window.addEventListener('scroll', listenToScroll)
         return () => {
             window.removeEventListener('scroll',listenToScroll)
@@ -39,11 +40,10 @@ const openMobileNav =()=>{
         document.querySelector('.navbar').style.backgroundColor='rgba(6,6,6,0.98)'
     }
     else{
-        if(window.Width()==='980px'){
+        if(window.innerWidth <=1000){
             document.querySelector('.nav-links').style.display='none'
             document.querySelector('.social-links').style.display='none'
             document.querySelector('.navbar').style.height='10vh'
-            document.querySelector('.navbar').style.backgroundColor='transparent'
         }        
     }
 }
