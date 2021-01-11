@@ -3,7 +3,7 @@
     width: 100vw;
     .vision-figure{
         position: absolute;
-        z-index: 1;
+        z-index: -3;
         width: 800px;
         height: 1000px;
         top: -250px;
@@ -38,6 +38,7 @@
             width: 550px;
             font-family: "Montserrat",sans-serif;
             position: relative;
+            z-index: 15;
             top: 40px;
             @media (max-width:980px){
                 margin-bottom: 180px;
@@ -55,6 +56,8 @@
                 line-height: 29px;
             }
             button{
+                position: relative;
+                z-index: 10;
                 margin-top: 40px;
                 outline-style: none;
                 border:none;

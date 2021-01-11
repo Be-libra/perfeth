@@ -2,6 +2,7 @@ import React from 'react'
 import {BsArrowRightShort,BsArrowRight} from 'react-icons/bs'
 import './style-comp/cover.scss'
 import coverRight from '../../utils/coverRight.png'
+import graph from '../../utils/graph.png'
 
 function Cover() {
     return (
@@ -21,7 +22,7 @@ function Cover() {
                    <img src={coverRight} alt='coverRight' />
                </div>
                <div className='graph-image'>
-                   <img src='https://www.tilezine.co.uk/wp-content/uploads/2018/01/2.jpg' alt='graph' />
+                   <img src={graph} alt='graph' />
                </div>
            </div>
         </div>
