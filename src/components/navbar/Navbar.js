@@ -2,6 +2,7 @@ import React,{useEffect,useState} from 'react'
 import {FaFacebookF,FaTwitter} from 'react-icons/fa'
 import {AiFillInstagram} from 'react-icons/ai'
 import {BiMenuAltRight} from 'react-icons/bi'
+import logo from '../../utils/logo.png'
 
 import './style-comp/navbar.scss'
 
@@ -50,7 +51,7 @@ const openMobileNav =()=>{
     return (
         <div className='navbar'>
             <div className='logo'>
-                <h1>Perfeth</h1>
+                <img src={logo} alt='logo' />
             </div>
             <div className='nav-components'>
                 <div className='mobile-menu' onClick={changeActiveState}>

@@ -4,6 +4,7 @@ import {GiStopwatch} from 'react-icons/gi'
 import pricingLeftBg from '../../utils/pricingLeftBg.png'
 import pricingRightBg from '../../utils/pricingRightBg.png'
 import hexagon from '../../utils/hexagon.png'
+import {BiRupee} from 'react-icons/bi'
 
 import './style-comp/pricing.scss'
 
@@ -33,17 +34,18 @@ function Pricing() {
                     <img src={course} alt='course' />
                     <h2>Reactjs</h2>
                     <div className='price'>
-                        <h2>You Pay ₹99/wk</h2>
+                        <h2>You Pay <span><BiRupee/></span>99/wk</h2>
                     </div>
                     <div className='card-body'>
                         <div className='left'>
                             <p>Closes In</p>
                             <div className='line'></div>
-                            <p style={{fontSize:'18px',fontWeight:'600',padding:'0',marginTop:'3px'}}>5</p>
+                            <p style={{fontSize:'1.5rem',fontWeight:'600',padding:'0',marginTop:'3px'}}>5</p>
                             <p style={{marginTop:'3px'}}>Days</p>
                         </div>
                         <div className='right'>
                         <div className="single-chart">
+                            <p>Booked</p>
                             <svg viewBox="0 0 36 36" className="circular-chart orange">
                             <path className="circle-bg"
                                 d="M18 2.0845
@@ -51,12 +53,12 @@ function Pricing() {
                                 a 15.9155 15.9155 0 0 1 0 -31.831"
                             />
                             <path className="circle"
-                                stroke-dasharray="76, 100"
+                                stroke-dasharray="72, 100"
                                 d="M18 2.0845
                                 a 15.9155 15.9155 0 0 1 0 31.831
                                 a 15.9155 15.9155 0 0 1 0 -31.831"
                             />
-                            <text x="8" y="20.35" className="percentage">76%</text>
+                            <text x="9" y="17.35" className="percentage" style={{fontSize:'8px'}}>72%</text>
                             </svg>
                         </div>
                         </div>
@@ -70,17 +72,18 @@ function Pricing() {
                     <img src={course} alt='course' />
                     <h2>Reactjs</h2>
                     <div className='price'>
-                        <h2>You Pay ₹99/wk</h2>
+                        <h2>You Pay <span><BiRupee/></span>99/wk</h2>
                     </div>
                     <div className='card-body'>
                         <div className='left'>
                             <p>Closes In</p>
                             <div className='line'></div>
-                            <p style={{fontSize:'18px',fontWeight:'600',padding:'0',marginTop:'3px'}}>5</p>
+                            <p style={{fontSize:'1.5rem',fontWeight:'600',padding:'0',marginTop:'3px'}}>5</p>
                             <p style={{marginTop:'3px'}}>Days</p>
                         </div>
                         <div className='right'>
                         <div className="single-chart">
+                            <p>Booked</p>
                             <svg viewBox="0 0 36 36" className="circular-chart orange">
                             <path className="circle-bg"
                                 d="M18 2.0845
@@ -88,12 +91,12 @@ function Pricing() {
                                 a 15.9155 15.9155 0 0 1 0 -31.831"
                             />
                             <path className="circle"
-                                stroke-dasharray="76, 100"
+                                stroke-dasharray="64, 100"
                                 d="M18 2.0845
                                 a 15.9155 15.9155 0 0 1 0 31.831
                                 a 15.9155 15.9155 0 0 1 0 -31.831"
                             />
-                            <text x="8" y="20.35" className="percentage">76%</text>
+                            <text x="9" y="17.35" className="percentage" style={{fontSize:'8px'}}>64%</text>
                             </svg>
                         </div>
                         </div>
@@ -107,17 +110,18 @@ function Pricing() {
                     <img src={course} alt='course' />
                     <h2>Reactjs</h2>
                     <div className='price'>
-                        <h2>You Pay ₹99/wk</h2>
+                        <h2>You Pay <span><BiRupee/></span>99/wk</h2>
                     </div>
                     <div className='card-body'>
                         <div className='left'>
                             <p>Closes In</p>
                             <div className='line'></div>
-                            <p style={{fontSize:'18px',fontWeight:'600',padding:'0',marginTop:'3px'}}>5</p>
+                            <p style={{fontSize:'1.5rem',fontWeight:'600',padding:'0',marginTop:'3px'}}>5</p>
                             <p style={{marginTop:'3px'}}>Days</p>
                         </div>
                         <div className='right'>
                         <div className="single-chart">
+                            <p>Booked</p>
                             <svg viewBox="0 0 36 36" className="circular-chart orange">
                             <path className="circle-bg"
                                 d="M18 2.0845
@@ -125,12 +129,12 @@ function Pricing() {
                                 a 15.9155 15.9155 0 0 1 0 -31.831"
                             />
                             <path className="circle"
-                                stroke-dasharray="76, 100"
+                                stroke-dasharray="54, 100"
                                 d="M18 2.0845
                                 a 15.9155 15.9155 0 0 1 0 31.831
                                 a 15.9155 15.9155 0 0 1 0 -31.831"
                             />
-                            <text x="8" y="20.35" className="percentage">76%</text>
+                            <text x="9" y="17.35" className="percentage" style={{fontSize:'8px'}}>54%</text>
                             </svg>
                         </div>
                         </div>

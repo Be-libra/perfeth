@@ -1,7 +1,7 @@
 .navbar{
     position: fixed;
     top: 0;
-    height: 10vh;
+    height: 13vh;
     z-index: 20;
     width: 100vw;
     display: flex;
@@ -17,26 +17,34 @@
         width: 102vw;
     }
     .logo{
-        width: 250px;
+        width: 180px;
+        margin-top: 10px;
         height: 80%;
         display: flex;
         justify-content: center;
         align-items: center;
-        h1{
-            color: #fff;
-            font-size: 58px;
-            @media (max-width:980px) {
-                position: absolute;
-                top: 40px;
-                left: 40px;
-            }
+        cursor: pointer;
+        @media (max-width:980px){
+            width:330px;
         }
+       img{
+           left: 30px;
+           width: 135px;
+           height: 50px;
+           @media (max-width:980px){
+               position: absolute;
+               top: 30px;
+               height: 85px;
+               width: 240px;
+           }
+       }
     }
     .nav-components{
+        margin-top: 10px;
         display: flex;
         width: 900px;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-around;        
         @media (max-width:980px){
             display: flex;
             flex-direction: column;
@@ -62,6 +70,7 @@
             color: #fff;
             display: flex;
             flex-direction: row;
+            margin-top: 7px;
             @media (max-width:980px){
                 display: flex;
                 flex-direction: column;
@@ -88,6 +97,7 @@
         .social-links{
             display: flex;
             flex-direction: row;
+            margin-top: 3px;
             @media (max-width:980px) {
                width: 100%;
                justify-content: space-around;

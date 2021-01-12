@@ -4,7 +4,7 @@ import './style-comp/partners.scss'
 function Partners() {
     return (
         <div className='partners'>
-            <p>Top tech companies hire from us</p>
+            <p>TOP TECH COMPANIES HIRE FROM US</p>
             <div className='all-partners'>
                 <div className='mx-player'>
                     <img src='https://j2apps.s.llnwi.net/assets-origin/static/images/mx_footer_logo.png' alt='mx-player'/>
