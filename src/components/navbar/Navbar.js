@@ -11,7 +11,7 @@ function Navbar() {
     const [mobileNavState,setMobileNavState] = useState(false)
 
     useEffect(() => {
-        console.log(window.innerWidth)
+        
         window.addEventListener('scroll', listenToScroll)
         return () => {
             window.removeEventListener('scroll',listenToScroll)
