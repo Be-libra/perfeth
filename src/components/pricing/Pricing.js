@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
 import course from '../../utils/course.png'
 import {GiStopwatch} from 'react-icons/gi'
 import pricingLeftBg from '../../utils/pricingLeftBg.png'
@@ -7,8 +7,15 @@ import hexagon from '../../utils/hexagon.png'
 import {BiRupee} from 'react-icons/bi'
 
 import './style-comp/pricing.scss'
+import Card from './Card.js'
 
 function Pricing() {
+
+    const [loadCount,setLoadCount] = useState(3)
+
+    const loadMore=()=>setLoadCount(loadCount+1)
+
+
     return (
         <div className='pricing'>
             <div className='left-bg'>
@@ -28,123 +35,13 @@ function Pricing() {
             </div>
             <p>PRICING</p>
             <h1>We At Perfeth Invest In You</h1>
-            <h3>You Pay 20% and rest paid by your employer when Perfeth gets you the job</h3>
+            <h3>Start your perfect course by paying just 20% and the rest after you get a successful placement.</h3>
             <div className='pricing-cards'>
-                <div className='card'>
-                    <img src={course} alt='course' />
-                    <h2>Reactjs</h2>
-                    <div className='price'>
-                        <h2>You Pay <span><BiRupee/></span>99/wk</h2>
-                    </div>
-                    <div className='card-body'>
-                        <div className='left'>
-                            <p>Closes In</p>
-                            <div className='line'></div>
-                            <p style={{fontSize:'1.5rem',fontWeight:'600',padding:'0',marginTop:'3px'}}>5</p>
-                            <p style={{marginTop:'3px'}}>Days</p>
-                        </div>
-                        <div className='right'>
-                        <div className="single-chart">
-                            <p>Booked</p>
-                            <svg viewBox="0 0 36 36" className="circular-chart orange">
-                            <path className="circle-bg"
-                                d="M18 2.0845
-                                a 15.9155 15.9155 0 0 1 0 31.831
-                                a 15.9155 15.9155 0 0 1 0 -31.831"
-                            />
-                            <path className="circle"
-                                stroke-dasharray="72, 100"
-                                d="M18 2.0845
-                                a 15.9155 15.9155 0 0 1 0 31.831
-                                a 15.9155 15.9155 0 0 1 0 -31.831"
-                            />
-                            <text x="9" y="17.35" className="percentage" style={{fontSize:'8px'}}>72%</text>
-                            </svg>
-                        </div>
-                        </div>
-                    </div>
-                    <div className='dura'>
-                        <p className='duration'><span><GiStopwatch/> </span>Duration - 12 Weeks</p>
-                    </div>                    
-                    <button>Get Started</button>
-                </div>
-                <div className='card'>
-                    <img src={course} alt='course' />
-                    <h2>Reactjs</h2>
-                    <div className='price'>
-                        <h2>You Pay <span><BiRupee/></span>99/wk</h2>
-                    </div>
-                    <div className='card-body'>
-                        <div className='left'>
-                            <p>Closes In</p>
-                            <div className='line'></div>
-                            <p style={{fontSize:'1.5rem',fontWeight:'600',padding:'0',marginTop:'3px'}}>5</p>
-                            <p style={{marginTop:'3px'}}>Days</p>
-                        </div>
-                        <div className='right'>
-                        <div className="single-chart">
-                            <p>Booked</p>
-                            <svg viewBox="0 0 36 36" className="circular-chart orange">
-                            <path className="circle-bg"
-                                d="M18 2.0845
-                                a 15.9155 15.9155 0 0 1 0 31.831
-                                a 15.9155 15.9155 0 0 1 0 -31.831"
-                            />
-                            <path className="circle"
-                                stroke-dasharray="64, 100"
-                                d="M18 2.0845
-                                a 15.9155 15.9155 0 0 1 0 31.831
-                                a 15.9155 15.9155 0 0 1 0 -31.831"
-                            />
-                            <text x="9" y="17.35" className="percentage" style={{fontSize:'8px'}}>64%</text>
-                            </svg>
-                        </div>
-                        </div>
-                    </div>
-                    <div className='dura'>
-                        <p className='duration'><span><GiStopwatch/> </span>Duration - 12 Weeks</p>
-                    </div>                    
-                    <button>Get Started</button>
-                </div>
-                <div className='card'>
-                    <img src={course} alt='course' />
-                    <h2>Reactjs</h2>
-                    <div className='price'>
-                        <h2>You Pay <span><BiRupee/></span>99/wk</h2>
-                    </div>
-                    <div className='card-body'>
-                        <div className='left'>
-                            <p>Closes In</p>
-                            <div className='line'></div>
-                            <p style={{fontSize:'1.5rem',fontWeight:'600',padding:'0',marginTop:'3px'}}>5</p>
-                            <p style={{marginTop:'3px'}}>Days</p>
-                        </div>
-                        <div className='right'>
-                        <div className="single-chart">
-                            <p>Booked</p>
-                            <svg viewBox="0 0 36 36" className="circular-chart orange">
-                            <path className="circle-bg"
-                                d="M18 2.0845
-                                a 15.9155 15.9155 0 0 1 0 31.831
-                                a 15.9155 15.9155 0 0 1 0 -31.831"
-                            />
-                            <path className="circle"
-                                stroke-dasharray="54, 100"
-                                d="M18 2.0845
-                                a 15.9155 15.9155 0 0 1 0 31.831
-                                a 15.9155 15.9155 0 0 1 0 -31.831"
-                            />
-                            <text x="9" y="17.35" className="percentage" style={{fontSize:'8px'}}>54%</text>
-                            </svg>
-                        </div>
-                        </div>
-                    </div>
-                    <div className='dura'>
-                        <p className='duration'><span><GiStopwatch/> </span>Duration - 12 Weeks</p>
-                    </div>                    
-                    <button>Get Started</button>
-                </div>
-            </div>
+               { 
+               Array.apply(undefined, {length: loadCount }).map(i=><Card key={i}/>)
+               }
+            </div>    
+            <button className='load-more' onClick={loadMore}>Load More</button>
         </div>
     )
 }

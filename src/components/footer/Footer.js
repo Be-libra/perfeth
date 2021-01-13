@@ -1,6 +1,7 @@
 import React from 'react'
 import './style-comp/footer.scss'
 import {BiCopyright} from 'react-icons/bi'
+import LogoP from '../../utils/LogoP.svg'
 
 function Footer() {
     return (
@@ -37,7 +38,8 @@ function Footer() {
                         <a href='#'>Privacy policy</a>
                         <a href='#'>Terms and Condition</a>
                     </div>
-                    <p><span><BiCopyright /> </span>2021 Perfeth </p>
+                    <p><span><img src={LogoP} alt='logo'/></span>Copyright <span><BiCopyright /> </span>2021-Perfeth Academy LLC. All rights reserved.
+ </p>
                 </div>
             </div>
         </div>

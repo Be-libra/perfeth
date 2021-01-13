@@ -2,7 +2,7 @@ import React,{useEffect,useState} from 'react'
 import {FaFacebookF,FaTwitter} from 'react-icons/fa'
 import {AiFillInstagram} from 'react-icons/ai'
 import {BiMenuAltRight} from 'react-icons/bi'
-import logo from '../../utils/logo.png'
+import logo from '../../utils/logo.svg'
 
 import './style-comp/navbar.scss'
 

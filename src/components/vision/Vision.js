@@ -20,9 +20,10 @@ function Vision() {
             <div className='vision-container'>
                 <div className='left'>
                     <p>A VISIONARY MOVEMENT</p>
-                    <p>We have created world's leading curriculum 
-                        and real life projects exposure creating 
-                        best engineers for new world companies.</p>
+                    <p>Perfeth Academy intends to prepare you from corporate functioning to creating your own 
+                        startup with in-demand skills. We built the curriculum keeping all undercurrent 
+                        industrial requirements and the Indian education system. </p>
+                    <h3>Rethink Education With Us !</h3>
                     <button>Get Started</button>
                 </div>
                 <div className='right'>

@@ -82,7 +82,7 @@ function Testimonial() {
                     <img src={testimonialRightBg} alt='right-bg' />
                 </div>
                 <p>STUDENTS AT PERFETH</p>
-                <h1>Success Stories</h1>
+                <h1> Hear it from our students</h1>
             </div>
             
         </div>

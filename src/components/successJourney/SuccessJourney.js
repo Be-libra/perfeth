@@ -18,28 +18,28 @@ function SuccessJourney() {
             </div>
             <p>YOUR JOURNEY TO SUCCESS</p> 
             <div className='heading'>
-                <h1>How Perfeth Academy Works</h1>
+                <h1>How Does Perfeth Academy Works ?</h1>
             </div>
             <div className='cards'>
                 <div className='card'>
                     <img src={stepOne} alt='stepone' />
                     <div className='card-body'>
                         <h3>Step One</h3>
-                        <p>Learn how to code from trusted professionals and work on a real life project</p>
+                        <p>  Learn to work on real-life projects and built a flourishing GitHub profile</p>
                     </div>
                 </div>
                 <div className='card'>
                     <img src={stepTwo} alt='steptwo' />
                     <div className='card-body'>
                         <h3>Step Two</h3>
-                        <p>Get Quality Work Exposure And Grow Your Connection or build a startup</p>
+                        <p>Earn experience, exposure, and reputation with quality education under experts</p>
                     </div>
                 </div>
                 <div className='card'>
                     <img src={stepThree} alt='stepthree' />
                     <div className='card-body'>
                         <h3>Step Three</h3>
-                        <p>Get introduced to Perfeth partner companies for their openings</p>
+                        <p>Extend your connections with prominent entrepreneurs and professional developers</p>
                     </div>
                 </div>
             </div>

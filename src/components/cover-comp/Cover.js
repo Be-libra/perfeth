@@ -8,7 +8,9 @@ import TextTransition, { presets } from "react-text-transition";
 const TEXTS = [
   "Experience",
   "Knowledge",
-  "Skills"
+  "Technique",
+  "Coherence",
+  "Perfeth Academy"
 ];
 
 function Cover() {
@@ -23,17 +25,16 @@ function Cover() {
     return (
         <div className='cover-container'>
            <div className='left'>
-               <div className='cover-heading'>
-                   <h1>Define your future with<br/><span><TextTransition
-                        text={ TEXTS[index% TEXTS.length] }
-                        springConfig={ presets.gentle }
-                    /></span></h1>
+                <div className='cover-heading'>
+                   <h1>Define your future with</h1>
+                   <span><TextTransition text={ TEXTS[index% TEXTS.length] } springConfig={ presets.gentle }
+                    /></span>
+                </div>
                    <p>Our comprehensive program takes you from foundations to specializations that create impacts.</p>
                    <div className='button'>
                         <p>get started</p>
                         <BsArrowRight className='arrow-on-hover' />
                    </div>
-               </div>
             </div> 
            <div className='right'>
                <div className='right-image'>
