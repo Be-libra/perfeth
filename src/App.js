@@ -8,6 +8,7 @@ import Pricing from './components/pricing/Pricing.js'
 import Navbar from './components/navbar/Navbar.js'
 import ScrollAnimation from 'react-animate-on-scroll'
 
+
 import "animate.css/animate.min.css"
 import './App.scss'
 import Footer from './components/footer/Footer.js'

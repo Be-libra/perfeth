@@ -1,0 +1,32 @@
+.preload{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    .preloader{
+        position: relative;
+        top: -60px;
+        left: 20px;
+        path{
+            stroke-dasharray: 1200px;
+            stroke-dashoffset: 1200px;
+            animation: complete 3.2s ease infinite;
+        }
+    }
+}
+@keyframes complete{
+    0%{
+        stroke-dashoffset:900;
+    }
+    50%{
+        stroke-dashoffset: 400;
+    }
+    90%{
+        stroke-dashoffset: 0;
+    }
+    100%{
+        fill: #FFB448;
+    }
+}

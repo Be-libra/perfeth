@@ -9,8 +9,14 @@ import {BiRupee} from 'react-icons/bi'
 import './style-comp/pricing.scss'
 import Card from './Card.js'
 
+const courses=[
+    'Reactjs',
+    'Nodejs',
+    'Python',
+    'Data Analysis'
+]
 function Pricing() {
-
+    console.log(courses[0])
     const [loadCount,setLoadCount] = useState(3)
 
     const loadMore=()=>setLoadCount(loadCount+1)
@@ -38,7 +44,7 @@ function Pricing() {
             <h3>Start your perfect course by paying just 20% and the rest after you get a successful placement.</h3>
             <div className='pricing-cards'>
                { 
-               Array.apply(undefined, {length: loadCount }).map(i=><Card key={i}/>)
+               Array.apply(null, {length: loadCount }).map((e,i)=><Card key={i} courseNo={i} Course={courses[i]}/>)
                }
             </div>    
             <button className='load-more' onClick={loadMore}>Load More</button>

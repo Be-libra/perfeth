@@ -4,11 +4,12 @@ import {BiRupee} from 'react-icons/bi'
 import {GiStopwatch} from 'react-icons/gi'
 
 const percentage = "54,100"
-function Card() {
+function Card(props) {
+    console.log(props)
     return (
         <div className='card'>
                     <img src={course} alt='course' />
-                    <h2>Reactjs</h2>
+                    <h2>{props.Course}</h2>
                     <div className='price'>
                         <h2>You Pay <span><BiRupee/></span>99/wk</h2>
                     </div>
