@@ -19,7 +19,7 @@ function Vision() {
             </div>
             <div className='vision-container'>
                 <div className='left'>
-                    <p>A VISIONARY MOVEMENT</p>
+                    <p style={{fontSize:'1.2rem'}}>A VISIONARY MOVEMENT</p>
                     <p>Perfeth Academy intends to prepare you from corporate functioning to creating your own 
                         startup with in-demand skills. We built the curriculum keeping all undercurrent 
                         industrial requirements and the Indian education system. </p>

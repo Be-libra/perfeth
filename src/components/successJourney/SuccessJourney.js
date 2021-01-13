@@ -16,7 +16,7 @@ function SuccessJourney() {
             <div className='right-bg'>
                 <img src={successRightBg} alt='waveRight-bg'/>
             </div>
-            <p>YOUR JOURNEY TO SUCCESS</p> 
+            <p  className='tag'>Your Journey to success</p> 
             <div className='heading'>
                 <h1>How Does Perfeth Academy Works ?</h1>
             </div>

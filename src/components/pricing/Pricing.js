@@ -39,7 +39,7 @@ function Pricing() {
             <div className='hexagon-3'>
                 <img src={hexagon} alt='hexagon' />
             </div>
-            <p>PRICING</p>
+            <p >PRICING</p>
             <h1>We At Perfeth Invest In You</h1>
             <h3>Start your perfect course by paying just 20% and the rest after you get a successful placement.</h3>
             <div className='pricing-cards'>
