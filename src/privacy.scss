@@ -1,0 +1,32 @@
+ol{
+    li{
+        position: relative;
+        left: 4%;
+    }
+}
+.privacy-table{
+    tbody{
+        tr{
+            td{
+                p{
+                    padding: 8px;
+                }
+                ul{
+                    padding: 8px;
+                    position: relative;
+                    left: 30px;
+                }
+                border: 1px solid #333333;  
+            }
+        }
+    }
+}
+.privacy-policy{
+    margin-top: 10%;
+    h1{
+        font-size: 40px;
+    }
+    @media (max-width:980px){
+        margin-top:30%;
+    }
+}

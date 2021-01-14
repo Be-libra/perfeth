@@ -22,7 +22,7 @@ function Footer() {
                     <p>Apparently we had reached a great height in the atmosphere.</p>
                     <div className='contact'>
                         <h2>Contact</h2>
-                        <p>Email: education@edu.com</p>
+                        <p>Email: parag@perfeth.academy</p>
                         <p>Phone: +1 (234) 567-89-00</p>
                     </div>
                     <div className='subscribe'>
@@ -34,8 +34,8 @@ function Footer() {
                     </div>
                 </div>
                 <div className='three'>
-                    <div className='privacy-policy'>
-                        <a href='#'>Privacy policy</a>
+                    <div className='privacyPolicy'>
+                        <a href='/privacy-policy'>Privacy policy</a>
                         <a href='#'>Terms and Condition</a>
                     </div>
                     <p><span><img src={LogoP} alt='logo'/></span>Copyright <span><BiCopyright /> </span>2021-Perfeth Academy LLC. All rights reserved.
