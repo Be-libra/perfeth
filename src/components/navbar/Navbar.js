@@ -21,11 +21,11 @@ function Navbar() {
 const listenToScroll = ()=>{
     if(document.body.scrollTop > 50 || document.documentElement.scrollTop > 50){
         document.querySelector('.navbar').style.boxShadow=' 0px 3px 1px 1px rgba(212,210,212,0.56)'
-        document.querySelector('.navbar').style.backgroundColor='rgba(6, 6, 6,0.94)'
+        document.querySelector('.navbar').style.backgroundColor='rgba(6, 6, 6,0.98)'
     }
     else{
         document.querySelector('.navbar').style.boxShadow='none'
-        document.querySelector('.navbar').style.backgroundColor='rgba(6, 6, 6,0)'
+        document.querySelector('.navbar').style.backgroundColor='rgba(6, 6, 6,0.98)'
     }
 }
 
@@ -39,12 +39,14 @@ const openMobileNav =()=>{
         document.querySelector('.social-links').style.display='flex'
         document.querySelector('.navbar').style.height='100vh'
         document.querySelector('.navbar').style.backgroundColor='rgba(6,6,6,0.98)'
+        document.querySelector('body').style.overflowY='hidden'
     }
     else{
         if(window.innerWidth <=1000){
             document.querySelector('.nav-links').style.display='none'
             document.querySelector('.social-links').style.display='none'
             document.querySelector('.navbar').style.height='10vh'
+            document.querySelector('body').style.overflowY='scroll'
         }        
     }
 }
