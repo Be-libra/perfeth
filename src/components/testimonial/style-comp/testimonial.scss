@@ -250,7 +250,10 @@
         border-radius: 100%;
         background-color: #6382F5;
         top: -170px;
-        right: -560px;
+        left: 34%;
+        @media (max-width:980px){
+            left: 80%;
+        }
     }
     .hexagon{
         position: absolute;
@@ -277,9 +280,11 @@
         border-radius: 100%;
         top: 170px;
         border:4px solid #F07867;
+        left: 53%;
         animation: float 4.2s linear infinite;
         @media (max-width:980px) {
             top: 380px;
+            left: 10%;
         }
     }
 }
