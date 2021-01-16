@@ -10,7 +10,7 @@ function Footer() {
             <div className='footer-container'>
                 <div className='one'>
                     <div className='left'>
-                        <h1>Learning Now!</h1>
+                        <h1>Begin Your Journey</h1>
                         <p>By the same illusion which lifts the horizon of the sea to the level of the spectator.</p>
                     </div>
                     <div className='right'>
