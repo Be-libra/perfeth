@@ -30,7 +30,7 @@ function Cover() {
                    <span><TextTransition text={ TEXTS[index% TEXTS.length] } springConfig={ presets.gentle }
                     /></span>
                 </div>
-                   <p>Our comprehensive program takes you from foundations to specializations that create impacts.</p>
+                   <p>Our comprehensive program takes you from foundations to specializations that creates impact.</p>
                    <div className='button'>
                         <p>get started</p>
                         <BsArrowRight className='arrow-on-hover' />
