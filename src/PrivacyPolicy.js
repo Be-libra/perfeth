@@ -1,6 +1,7 @@
 import React from 'react'
 import './privacy.scss'
 
+
 const PrivacyPolicy =() =>{
     return(
         <div className='privacy-policy' style={{width:'80%',marginLeft:'5%',fontFamily:'Montserrat'}}>

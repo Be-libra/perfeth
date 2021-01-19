@@ -2,6 +2,7 @@ import React from 'react'
 import './style-comp/footer.scss'
 import {BiCopyright} from 'react-icons/bi'
 import LogoP from '../../utils/LogoP.svg'
+import {Link} from 'react-router-dom'
 
 function Footer() {
     return (
@@ -35,11 +36,12 @@ function Footer() {
                 </div>
                 <div className='three'>
                     <div className='privacyPolicy'>
-                        <a href='/privacy-policy'>Privacy policy</a>
+                        <Link to='/privacy-policy'>Privacy policy</Link>
                         <a href='#'>Terms and Condition</a>
                     </div>
-                    <p><span><img src={LogoP} alt='logo'/></span>Copyright <span><BiCopyright /> </span>2021-Perfeth Academy LLC. All rights reserved.
- </p>
+                    <p><span><img src={LogoP} alt='logo'/>
+                    </span>Copyright <span><BiCopyright /></span>2021-Perfeth Academy LLC. All rights reserved.
+                    </p>
                 </div>
             </div>
         </div>
