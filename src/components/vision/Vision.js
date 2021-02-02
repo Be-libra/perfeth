@@ -10,7 +10,7 @@ import {IoBriefcase} from 'react-icons/io5'
 
 function Vision() {
     return (
-        <div className='vision'>
+        <div className='vision' id='about'>
             <div className='vision-figure'>
                 <img src={figureBg} alt='figure'/>
             </div>

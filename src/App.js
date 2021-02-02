@@ -18,6 +18,7 @@ import "animate.css/animate.min.css"
 import './App.scss'
 import Footer from './components/footer/Footer.js'
 import PrivacyPolicy from './PrivacyPolicy.js'
+import Hubspot from './components/cover-comp/Hubspot.js'
 
 function App() {
      
@@ -47,6 +48,9 @@ function App() {
                 <Switch>
                     <Route path='/privacy-policy'>
                         <PrivacyPolicy />
+                    </Route>
+                    <Route path='/contact-form'>
+                        <Hubspot/>
                     </Route>
                     <Route path='/'>
                         <>

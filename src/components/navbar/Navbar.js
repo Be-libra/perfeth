@@ -52,27 +52,27 @@ const openMobileNav =()=>{
 }
     return (
         <div className='navbar'>
-            <div className='logo'>
+            <a href='/' className='logo'>
                 <img src={logo} alt='logo' />
-            </div>
+            </a>
             <div className='nav-components'>
                 <div className='mobile-menu' onClick={changeActiveState}>
                     <BiMenuAltRight />
                 </div>
                 <div className='nav-links'>
-                    <a href='#'>About</a>
-                    <a href='#'>Courses</a>
-                    <a href='#'>Community</a>
-                    <a href='#'>Contact</a>
+                    <a href='#about'>About</a>
+                    <a href='#pricing'>Courses</a>
+                    <a href='https://app.perfeth.com/'>Community</a>
+                    <a href='/contact-form'>Contact</a>
                 </div>
                 <div className='social-links'>
-                    <a href='#' className='facebook'>
+                    <a href='https://www.facebook.com/perfeth' className='facebook'>
                             <FaFacebookF />
                     </a>                   
-                    <a href='#' className='facebook'>
+                    <a href='https://www.linkedin.com/company/perfeth' className='facebook'>
                         <AiFillInstagram />
                     </a>
-                    <a href='#' className='facebook'>
+                    <a href='https://twitter.com/Perfeth1' className='facebook'>
                         <FaTwitter />
                     </a>
                 </div>

@@ -23,7 +23,7 @@ function Pricing() {
 
 
     return (
-        <div className='pricing'>
+        <div className='pricing' id='pricing'>
             <div className='left-bg'>
                 <img src={pricingLeftBg} alt='bg' />
             </div>
