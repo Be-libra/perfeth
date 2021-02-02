@@ -1,4 +1,4 @@
-import React,{Suspense} from 'react'
+import React,{Suspense,useEffect,useState} from 'react'
 import Cover from './components/cover-comp/Cover.js'
 import Partners from './components/partners/Partners.js'
 import Vision from './components/vision/Vision.js'
@@ -20,8 +20,28 @@ import Footer from './components/footer/Footer.js'
 import PrivacyPolicy from './PrivacyPolicy.js'
 
 function App() {
+     
+    
+    
+    // useEffect(() => {
+    //     const script = document.createElement('script');
+    //     script.src = 'https://js.hsforms.net/forms/v2.js';
+    //     document.body.appendChild(script);
+    //     console.log('heolloo live')
+    //     script.addEventListener('load', () => {
+    //         if(window.hbspt) {
+    //           window.hbspt.forms.create({
+    //             portalId: '9292665',
+    //           formId: '13c814da-d045-4682-be31-5d9b7b1a4531',
+    //           target: '#hubspotForm'
+    //         })
+    //       }
+    //     });
+    // }, [])
+
     return (
         <div style={{padding:'0',margin:'0',width:'100%'}}>
+            
             <Router>
                 <Navbar />
                 <Switch>

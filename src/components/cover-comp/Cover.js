@@ -15,6 +15,7 @@ const TEXTS = [
 
 function Cover() {
     const [index, setIndex] = useState(0);
+    const [popUp,setPopUp] =  useState(false)
 
     useEffect(() => {
         const intervalId = setInterval(() =>
@@ -22,8 +23,24 @@ function Cover() {
       5000 // every 3 seconds
     );
     },[]);
+
+    // const openPopUP=()=>{
+    //     const script = document.createElement('script');
+    //     script.src = '//js.hs-scripts.com/9292665.js';
+    //     script.async=true
+    //     script.defer=true
+    //     document.body.appendChild(script);
+    // }
     return (
         <div className='cover-container'>
+            {/* {popUp?
+            <div className='hubspot-container'>
+                <div id='hubspotForm' className='hbspt-form'></div>
+            </div>
+            :
+            null    
+        } */}
+            
            <div className='left'>
                 <div className='cover-heading'>
                    <h1>Define your future with</h1>
@@ -31,7 +48,7 @@ function Cover() {
                     /></span>
                 </div>
                    <p>Our comprehensive program takes you from foundations to specializations that creates impact.</p>
-                   <div className='button'>
+                   <div className='button'  >
                         <p>get started</p>
                         <BsArrowRight className='arrow-on-hover' />
                    </div>
