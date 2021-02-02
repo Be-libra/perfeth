@@ -24,13 +24,13 @@ function Cover() {
     );
     },[]);
 
-    // const openPopUP=()=>{
-    //     const script = document.createElement('script');
-    //     script.src = '//js.hs-scripts.com/9292665.js';
-    //     script.async=true
-    //     script.defer=true
-    //     document.body.appendChild(script);
-    // }
+    const openPopUP=()=>{
+        const script = document.createElement('script');
+        script.src = '//js.hs-scripts.com/9292665.js';
+        script.async=true
+        script.defer=true
+        document.body.appendChild(script);
+    }
     return (
         <div className='cover-container'>
             {/* {popUp?
@@ -48,7 +48,7 @@ function Cover() {
                     /></span>
                 </div>
                    <p>Our comprehensive program takes you from foundations to specializations that creates impact.</p>
-                   <div className='button'  >
+                   <div className='button' onClick={openPopUP} >
                         <p>get started</p>
                         <BsArrowRight className='arrow-on-hover' />
                    </div>
