@@ -43,7 +43,7 @@ function Card(props) {
                     <div className='dura'>
                         <p className='duration'><span><GiStopwatch/> </span>Duration - 12 Weeks</p>
                     </div>                    
-                    <button>Get Started</button>
+                    <a href='/contact-form'><button>Get Started</button></a>
                 </div>
     )
 }

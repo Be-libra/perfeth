@@ -15,8 +15,8 @@ function Footer() {
                         <p>By the same illusion which lifts the horizon of the sea to the level of the spectator.</p>
                     </div>
                     <div className='right'>
-                        <button>Get Started</button>
-                        <button>Contact</button>
+                        <a href='/contact-form'><button>Get Started</button></a>
+                        <a href='/contact-form'><button>Contact</button></a>
                     </div>
                 </div>
                 <div className='two'>

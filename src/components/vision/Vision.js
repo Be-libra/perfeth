@@ -24,7 +24,7 @@ function Vision() {
                         startup with in-demand skills. We built the curriculum keeping all undercurrent 
                         industrial requirements and the Indian education system. </p>
                     <h3>Rethink Education With Us !</h3>
-                    <button>Get Started</button>
+                    <a href='/contact-form'><button>Get Started</button></a>
                 </div>
                 <div className='right'>
                     <div className='top-dots'>
