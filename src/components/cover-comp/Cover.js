@@ -25,11 +25,7 @@ function Cover() {
     },[]);
 
     const openPopUP=()=>{
-        const script = document.createElement('script');
-        script.src = '//js.hs-scripts.com/9292665.js';
-        script.async=true
-        script.defer=true
-        document.body.appendChild(script);
+        window.open("https://perfeth.academy/contact-form","_self")
     }
     return (
         <div className='cover-container'>
