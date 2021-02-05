@@ -25,7 +25,7 @@ function Cover() {
     },[]);
 
     const openPopUP=()=>{
-        window.open("https://perfeth.academy/contact-form","_self")
+        window.open("http://3.1.20.139/contact-form","_self")
     }
     return (
         <div className='cover-container'>
