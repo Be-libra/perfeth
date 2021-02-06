@@ -20,12 +20,12 @@
     }
     .hexagon-2{
         top: 470px;
-        left: 550px;
+        left: 600px;
         animation: float 4.6s linear infinite;
     }
     .hexagon-3{
         top: 600px;
-        right: 150px;
+        right: 100px;
         animation: float 4.9s linear infinite;
         @media (max-width:980px) {
             top: 980px;

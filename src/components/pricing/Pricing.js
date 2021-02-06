@@ -8,6 +8,7 @@ import {BiRupee} from 'react-icons/bi'
 
 import './style-comp/pricing.scss'
 import Card from './Card.js'
+import CardV1 from './CardV1'
 
 const courses=[
     'Reactjs',
@@ -42,11 +43,12 @@ function Pricing() {
             <p >PRICING</p>
             <h1>We At Perfeth Invest In You</h1>
             <h3>Start your perfect course by paying just 20% and the rest after you get a successful placement.</h3>
-            <div className='pricing-cards'>
+            {/* <div className='pricing-cards'>
                { 
                Array.apply(null, {length: loadCount }).map((e,i)=><Card key={i} courseNo={i} Course={courses[i]}/>)
                }
-            </div>    
+            </div>     */}
+            <CardV1 />
             <button className='load-more' onClick={loadMore}>Load More</button>
         </div>
     )

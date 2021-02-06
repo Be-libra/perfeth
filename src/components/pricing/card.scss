@@ -1,0 +1,146 @@
+.courses{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    .courses-card{
+        margin: 40px;
+        margin-top: 80px;
+            width: 420px;
+            height: 450px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            font-family: "Montserrat",sans-serif;
+            background-color: #fff;
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+            @media (max-width:980px){
+                margin-top: 170px;
+                width: 500px;
+                height: 500px;
+                margin-right: 50px;
+            }
+            &::after{
+                content: '';
+                position: absolute;
+                z-index: -1;
+                width: 240px;
+                height: 300px;
+                background-color: #FBD34B;
+                top: -30px;
+                left: -30px;
+                border-radius: 8px;
+                animation: float 4.5s linear infinite;
+                @media (max-width:980px){
+                    width: 300px;
+                    height: 360px;
+                }
+            }
+        img{
+            width: 100%;
+            height: 45%;
+        }
+        .price{
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            border-radius: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 10;
+            background-color: #6483F6;
+            top: -100px;
+            left: -60px;
+            h2{
+                padding: 0;
+                text-align: center;
+                font-size: 25px;
+                color: #fff;
+                font-weight: 400;
+                letter-spacing: 1.2px;
+                position: relative;
+                top: 3px;
+                left: 1px;
+                text-align: center;
+                width: 120px;
+                span{
+                    font-size: 28px;
+                    position: relative;
+                    top: 5px;
+                }
+            }
+        }
+        .crd-body{
+            height: 55%;
+            width: 100%;
+            background-color: #FDF0E9;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .course-desc{
+                width: 95%;
+                height: 70%;
+                background-color: #ffffff;
+                font-family: "Montserrat",sans-serif;
+                border-radius: 12px;
+                margin-top: 20px;
+                .course-name{
+                    padding: 15px;
+                    padding-top: 0%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    font-family: "Montserrat",sans-serif;
+                    padding-bottom: 20px;
+                    border-bottom: 1.5px solid #FDF0E9;
+                    h3{
+                        margin: 0;
+                        font-size: 24px;
+                        font-weight: 600;
+                        position: relative;
+                        top: 15px;
+                        color: rgba(0, 0, 0, 1);
+                    }
+                    p{
+                        font-size: 8px;
+                        color: #151515;
+                        font-weight: 500;
+                        display: none;
+                        span{
+                            color: #F07867;
+                            font-size: 14px;
+                            position: relative;
+                            top: 5px;
+                        }
+                    }
+                }
+                p{
+                    font-size: 16px;
+                    line-height: 28px;
+                    word-spacing: 1.2px;
+                    font-weight: 400;
+                    text-align: left;
+                    color: #707070;
+                    padding: 15px;
+                }
+            }
+            a{
+                text-decoration: none;
+                text-transform: none;
+                width: 95%;
+                button{
+                    width: 100%;
+                    background-color: #F07867;
+                    color: #fff;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}

@@ -62,9 +62,9 @@ function App() {
                             <ScrollAnimation animateIn='fadeIn' delay={100} duration={4}>
                                 <SuccessJourney/>
                             </ScrollAnimation>
-                            <ScrollAnimation animateIn='fadeIn' delay={100} duration={4}>
+                            {/* <ScrollAnimation animateIn='fadeIn' delay={100} duration={4}>
                                 <Testimonial/>
-                            </ScrollAnimation>
+                            </ScrollAnimation> */}
                             <ScrollAnimation animateIn='fadeIn' delay={100} duration={4}>
                                 <Pricing/>
                             </ScrollAnimation>
