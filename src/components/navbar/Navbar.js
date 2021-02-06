@@ -62,17 +62,17 @@ const openMobileNav =()=>{
                 <div className='nav-links'>
                     <a href='#about'>About</a>
                     <a href='#pricing'>Courses</a>
-                    <a href='https://app.perfeth.com/'>Community</a>
+                    <a href='https://app.perfeth.com/' target="_blank">Community</a>
                     <a href='/contact-form'>Contact</a>
                 </div>
                 <div className='social-links'>
-                    <a href='https://www.facebook.com/perfeth' className='facebook'>
+                    <a href='https://www.facebook.com/perfeth' className='facebook' target="_blank">
                             <FaFacebookF />
                     </a>                   
-                    <a href='https://www.linkedin.com/company/perfeth' className='facebook'>
+                    <a href='https://www.linkedin.com/company/perfeth' className='facebook' target="_blank">
                         <AiFillInstagram />
                     </a>
-                    <a href='https://twitter.com/Perfeth1' className='facebook'>
+                    <a href='https://twitter.com/Perfeth1' className='facebook' target="_blank">
                         <FaTwitter />
                     </a>
                 </div>
