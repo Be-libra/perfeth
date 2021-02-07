@@ -3,6 +3,7 @@ import {FaFacebookF,FaTwitter} from 'react-icons/fa'
 import {AiFillInstagram} from 'react-icons/ai'
 import {BiMenuAltRight} from 'react-icons/bi'
 import logo from '../../utils/logo.svg'
+import {Link} from 'react-router-dom'
 
 import './style-comp/navbar.scss'
 

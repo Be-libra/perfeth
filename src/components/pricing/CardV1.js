@@ -3,6 +3,7 @@ import course from '../../utils/course.png'
 import {BiRupee} from 'react-icons/bi'
 import {GiStopwatch} from 'react-icons/gi'
 import {Button} from '@material-ui/core'
+import {Link} from 'react-router-dom'
 import './card.scss'
 
 function CardV1() {
@@ -21,7 +22,7 @@ function CardV1() {
                         </div>
                         <p>Get quality exposure and grow your connection or build startup connection or build a startup</p>
                     </div>
-                    <a href='/contact-form'><Button>Get Started</Button></a>
+                    <Link to='/contact-form'><Button>Get Started</Button></Link>
                 </div>
             </div>
             <div className='courses-card'>
@@ -37,7 +38,7 @@ function CardV1() {
                         </div>
                         <p>Get quality exposure and grow your connection or build startup connection or build a startup</p>
                     </div>
-                    <a href='/contact-form'><Button>Get Started</Button></a>
+                    <Link to='/contact-form'><Button>Get Started</Button></Link>
                 </div>
             </div>
             <div className='courses-card'>
@@ -53,7 +54,7 @@ function CardV1() {
                         </div>
                         <p>Get quality exposure and grow your connection or build startup connection or build a startup</p>
                     </div>
-                    <a href='/contact-form'><Button>Get Started</Button></a>
+                    <Link to='/contact-form'><Button>Get Started</Button></Link>
                 </div>
             </div>
         </div>
