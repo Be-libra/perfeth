@@ -24,7 +24,7 @@ function Footer() {
                     <div className='contact'>
                         <h2>Contact</h2>
                         <p>Email: contact@perfeth.academy</p>
-                        <p>Phone: 9711380903</p>
+                        <p>Phone: +91 9711380903</p>
                     </div>
                     <div className='subscribe'>
                         <h2>subscribe</h2>
