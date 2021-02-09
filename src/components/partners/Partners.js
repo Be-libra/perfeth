@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
 import airtel from './airtel.svg'
 import brokers from './brokers.svg'
 import casone from './casone.svg'
@@ -13,59 +13,77 @@ import onco from './onco.svg'
 import landmark from './landmark.svg'
 import clinikk from './clinikk.svg'
 import stilt from './stilt.svg'
-// import m from './m.svg'
+import m from './m.svg'
+import mxplayer from './mxplayer.svg'
 import './style-comp/partners.scss'
+import CrossfadeImage from 'react-crossfade-image'
+
+
+const IMAGES=[
+    mxplayer,
+    m,
+    airtel,
+]
+const IMAGES2=[
+    stilt,
+    landmark,
+    onco,
+]
+const IMAGES3=[
+    brokers,
+    casone,
+    nobroker,
+]
+const IMAGES4=[
+    cleartax,
+    mxplayer,
+    deepsource,
+]
+const IMAGES5=[
+    technoserve,
+    gromo,
+    saggezza,
+]
+const IMAGES6=[
+    m,
+    loophole,
+    clinikk,
+]
+
 
 function Partners() {
+
+    const [index,setIndex]=useState(0)
+    // const [image,setImage] =()
+    useEffect(() => {
+        const intervalId = setTimeout(() => {
+            setIndex(index=>index+1)
+        },4000);
+        // console.log('hello')
+    }, [index])
+
     return (
         <div className='partners'>
             <h3>TOP TECH COMPANIES HIRE FROM US</h3>
             <div className='all-partners'>
                 <div className='partner'>
-                    <img src={airtel} alt='mx-player'/>
+                    <img src={IMAGES[index%3]} />
                 </div>
                 <div className='partner'>
-                    <img src={brokers} alt='mx-player'/>
+                    <img src={IMAGES2[index%3]} />
                 </div>
                 <div className='partner'>
-                    <img src={casone} alt='mx-player'/>
+                    <img src={IMAGES3[index%3]} />
                 </div>
                 <div className='partner'>
-                    <img src={nobroker} alt='mx-player'/>
+                    <img src={IMAGES4[index%3]} />
                 </div>
                 <div className='partner'>
-                    <img src={technoserve} alt='mx-player'/>
+                    <img src={IMAGES5[index%3]} />
                 </div>
                 <div className='partner'>
-                    <img src={deepsource} alt='mx-player'/>
+                    <img src={IMAGES6[index%3]} />
                 </div>
-                <div className='partner'>
-                    <img src={loophole} alt='mx-player'/>
-                </div>
-                <div className='partner'>
-                    <img src={onco} alt='mx-player'/>
-                </div>
-                <div className='partner'>
-                    <img src={cleartax} alt='mx-player'/>
-                </div>
-                <div className='partner'>
-                    <img src={saggezza} alt='mx-player'/>
-                </div>
-                <div className='partner'>
-                    <img src={gromo} alt='mx-player'/>
-                </div>
-                <div className='partner'>
-                    <img src={clinikk} alt='mx-player'/>
-                </div>
-                <div className='partner'>
-                    <img src={landmark} alt='mx-player'/>
-                </div>
-                <div className='partner'>
-                    <img src={stilt} alt='mx-player'/>
-                </div>
-                {/* <div className='partner'>
-                    <img src={m} alt='mx-player'/>
-                </div> */}
             </div>
         </div>
     )
