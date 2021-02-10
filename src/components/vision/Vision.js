@@ -19,11 +19,11 @@ function Vision() {
             </div>
             <div className='vision-container'>
                 <div className='left'>
-                    <p style={{fontSize:'1.2rem'}}>A VISIONARY MOVEMENT</p>
-                    <p>Perfeth Academy intends to prepare you from corporate functioning to creating your own 
-                        startup with in-demand skills. We built the curriculum keeping all undercurrent 
-                        industrial requirements and the Indian education system. </p>
-                    <h3>Rethink Education With Us !</h3>
+                    <p style={{fontSize:'1.2rem'}}>BOOST YOUR CARRER</p>
+                    <h2>What Is Perfeth</h2>
+                    <p>At <strong>Perfeth, </strong>we ensure the quality of community members by evaluating their profiles.</p>
+                    <p>Engaging them through a <strong>meaningful relationship</strong> that leads to their professional success.</p>
+                    <p>This is an <strong>invite only</strong> for <strong>experts</strong></p>
                     <a href='/contact-form'><button>Get Started</button></a>
                 </div>
                 <div className='right'>
