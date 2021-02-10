@@ -20,6 +20,7 @@ import Footer from './components/footer/Footer.js'
 import PrivacyPolicy from './PrivacyPolicy.js'
 import Hubspot from './components/cover-comp/Hubspot.js'
 import Expert from './components/experts/Expert.js'
+import Work from './components/workwithus/Work.js'
 
 function App() {
      
@@ -69,7 +70,12 @@ function App() {
                             <ScrollAnimation animateIn='fadeIn' delay={100} duration={4}>
                                 <Pricing/>
                             </ScrollAnimation>
-                            <Expert />
+                            <ScrollAnimation animateIn='fadeIn' delay={100} duration={4}>
+                                <Expert />
+                            </ScrollAnimation>
+                            <ScrollAnimation animateIn='fadeIn' delay={100} duration={4}>
+                                <Work/>
+                            </ScrollAnimation>
                             <ScrollAnimation animateIn='fadeIn' delay={100} duration={4}>
                                 <Footer/>
                             </ScrollAnimation>
