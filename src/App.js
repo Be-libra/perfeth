@@ -21,6 +21,7 @@ import PrivacyPolicy from './PrivacyPolicy.js'
 import Hubspot from './components/cover-comp/Hubspot.js'
 import Expert from './components/experts/Expert.js'
 import Work from './components/workwithus/Work.js'
+import SheCodes from './components/she-codes/SheCodes.js'
 
 function App() {
      
@@ -72,6 +73,9 @@ function App() {
                             </ScrollAnimation>
                             <ScrollAnimation animateIn='fadeIn' delay={100} duration={4}>
                                 <Expert />
+                            </ScrollAnimation>
+                            <ScrollAnimation animateIn='fadeIn' delay={100} duration={4}>
+                                <SheCodes />
                             </ScrollAnimation>
                             <ScrollAnimation animateIn='fadeIn' delay={100} duration={4}>
                                 <Work/>

@@ -1,0 +1,56 @@
+.she-codes{
+    margin-top: 130px;
+    width: 100vw;
+    height: 600px;
+    position: relative;
+    .she-code-video{
+        position: relative;
+        padding-top: 56.25%;
+        div{
+            position: absolute;
+        }
+    }
+    .video-cover{
+        position: absolute;
+        z-index:30;
+        top: 0;
+        width: 100%;
+        height: 600px;
+        background-image:linear-gradient(to right,rgba(0, 0, 0,0.90),rgba(0, 0, 0,0.90)), 
+        url('https://images.unsplash.com/photo-1531844251246-9a1bfaae09fc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1090&q=80');
+        background-size: 100%;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Montserrat',sans-serif;
+        justify-content: center;
+        .play-btn{
+            font-size: 70px;
+            color: #FD9A09;
+            cursor: pointer;
+        }
+        h2{
+            color: #ffffff;
+            font-size: 44px;
+            font-weight: 600;
+            margin-top: 30px;
+            letter-spacing: 1.2px;
+            word-spacing: 1.5px;
+            text-transform: uppercase;
+        }
+        p{
+            margin-top: 25px;
+            color: #ffffff;
+            font-size: 18px;
+            letter-spacing: 1.1px;
+            font-weight: 400;
+            width: 60%;
+            text-align: center;
+            line-height: 28px;
+        }
+    }
+}
+.hide-display{
+    display: none;
+}
