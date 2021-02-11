@@ -12,7 +12,7 @@
     align-items: center;
     overflow-x: hidden;
     overflow-y: hidden;
-    background-image:linear-gradient(to right,rgba(6, 6, 6,0.97),rgba(6, 6, 6,0.97)), url('../../../utils/coverBg.png');
+    background-image:linear-gradient(to right,rgba(6, 6, 6,0.97),rgba(6, 6, 6,0.97)), url('https://perfeth.s3.ap-south-1.amazonaws.com/academy/static/coverBg.png');
     @media (max-width:1024px){
         height: 95vh;
         width: 102vw;

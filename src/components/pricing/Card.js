@@ -1,5 +1,5 @@
 import React from 'react'
-import course from '../../utils/course.png'
+// import course from '../../utils/course.png'
 import {BiRupee} from 'react-icons/bi'
 import {GiStopwatch} from 'react-icons/gi'
 
@@ -8,7 +8,7 @@ function Card(props) {
     console.log(props)
     return (
         <div className='card'>
-                    <img src={course} alt='course' />
+                    <img src='https://perfeth.s3.ap-south-1.amazonaws.com/academy/static/course.png' alt='course' />
                     <h2>{props.Course}</h2>
                     <div className='price'>
                         <h2>You Pay <span><BiRupee/></span>99/wk</h2>

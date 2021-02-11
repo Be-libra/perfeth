@@ -1,9 +1,9 @@
 import React from 'react'
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
 import {RiArrowRightSLine,RiArrowLeftSLine} from 'react-icons/ri'
-import invertedCommas from '../../utils/invertedCommas.png'
-import hexagon from '../../utils/hexagon.png'
-import testimonialRightBg from '../../utils/testimonialRightBg.png'
+// import invertedCommas from '../../utils/invertedCommas.png'
+// import hexagon from '../../utils/hexagon.png'
+// import testimonialRightBg from '../../utils/testimonialRightBg.png'
 
 import './style-comp/testimonial.scss'
 
@@ -12,7 +12,7 @@ function Testimonial() {
         <div className='testimonial'>
             <div className='circle'></div>
             <div className='hexagon'>
-                <img src={hexagon} alt='heaxgon' />
+                <img src={'https://perfeth.s3.ap-south-1.amazonaws.com/academy/static/hexagon.png'} alt='heaxgon' />
             </div>
             <div className='outer-circle'></div>
             <div className='left'>
@@ -60,7 +60,7 @@ function Testimonial() {
                             <img src='https://cdn.pixabay.com/photo/2018/04/04/10/11/portrait-3289372_960_720.jpg' alt='profilepic-1' />
                         </div>
                         <div className='commas'>
-                            <img src={invertedCommas} alt='commas' />
+                            <img src={'https://perfeth.s3.ap-south-1.amazonaws.com/academy/static/invertedCommas.png'} alt='commas' />
                         </div>
                         <p>Minuteness of the parts formed a great hindrance to my speed, I resolved, 
                             contrary to my first intention, to make the being of a gigantic stature that is to
@@ -79,7 +79,7 @@ function Testimonial() {
             </div>
             <div className='right'>
                 <div className='right-bg'>
-                    <img src={testimonialRightBg} alt='right-bg' />
+                    <img src={'https://perfeth.s3.ap-south-1.amazonaws.com/academy/static/testimonialRightBg.png'} alt='right-bg' />
                 </div>
                 <p>STUDENTS AT PERFETH</p>
                 <h1> Hear it from our students</h1>

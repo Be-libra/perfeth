@@ -1,10 +1,10 @@
 import React from 'react'
-import figureBg from '../../utils/figureBg.png'
+// import figureBg from '../../utils/figureBg.png'
 import './style-comp/vision.scss'
-import visionRightBg from '../../utils/visionRightBg.png'
-import bag from '../../utils/bag.png'
-import like from '../../utils/like.png'
-import dots from '../../utils/dots.png'
+// import visionRightBg from '../../utils/visionRightBg.png'
+// import bag from '../../utils/bag.png'
+// import like from '../../utils/like.png'
+// import dots from '../../utils/dots.png'
 import {FaThumbsUp} from 'react-icons/fa'
 import {IoBriefcase} from 'react-icons/io5'
 
@@ -12,10 +12,10 @@ function Vision() {
     return (
         <div className='vision' id='about'>
             <div className='vision-figure'>
-                <img src={figureBg} alt='figure'/>
+                <img src='https://perfeth.s3.ap-south-1.amazonaws.com/academy/static/figureBg.png' alt='figure'/>
             </div>
             <div className='vision-rightBg'>
-                <img src={visionRightBg} alt='vision-right-bg' />
+                <img src='https://perfeth.s3.ap-south-1.amazonaws.com/academy/static/visionRightBg.png' alt='vision-right-bg' />
             </div>
             <div className='vision-container'>
                 <div className='left'>
@@ -28,17 +28,17 @@ function Vision() {
                 </div>
                 <div className='right'>
                     <div className='top-dots'>
-                        <img src={dots}  alt='dots-bg'/>
+                        <img src='https://perfeth.s3.ap-south-1.amazonaws.com/academy/static/dots.png'  alt='dots-bg'/>
                     </div>
                     <div className='bottom-dots'>
-                        <img src={dots}  alt='dots-bg'/>
+                        <img src='https://perfeth.s3.ap-south-1.amazonaws.com/academy/static/dots.png'  alt='dots-bg'/>
                     </div>
                     <div className='vision-right'>
                         <div className='thumbs-up'>
-                            <img src={like} alt='bag' />
+                            <img src='https://perfeth.s3.ap-south-1.amazonaws.com/academy/static/like.png' alt='bag' />
                         </div>
                         <div className='briefCase'>
-                            <img src={bag} alt='bag' />
+                            <img src='https://perfeth.s3.ap-south-1.amazonaws.com/academy/static/bag.png' alt='bag' />
                         </div>
                     </div>
                 </div>

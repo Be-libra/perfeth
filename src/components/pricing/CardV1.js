@@ -1,5 +1,5 @@
 import React from 'react'
-import course from '../../utils/course.png'
+// import course from '../../utils/course.png'
 import {BiRupee} from 'react-icons/bi'
 import {GiStopwatch} from 'react-icons/gi'
 import {Button} from '@material-ui/core'
@@ -10,7 +10,7 @@ function CardV1() {
     return (
         <div className='courses'>
             <div className='courses-card'>
-                <img src={course} alt='course' />
+                <img src='https://perfeth.s3.ap-south-1.amazonaws.com/academy/static/course.png' alt='course' />
                 <div className='price'>
                     <h2>You Pay <span><BiRupee/></span>99/wk</h2>
                 </div>
@@ -26,7 +26,7 @@ function CardV1() {
                 </div>
             </div>
             <div className='courses-card'>
-                <img src={course} alt='course' />
+                <img src='https://perfeth.s3.ap-south-1.amazonaws.com/academy/static/course.png' alt='course' />
                 <div className='price'>
                     <h2>You Pay <span><BiRupee/></span>99/wk</h2>
                 </div>
@@ -42,7 +42,7 @@ function CardV1() {
                 </div>
             </div>
             <div className='courses-card'>
-                <img src={course} alt='course' />
+                <img src='https://perfeth.s3.ap-south-1.amazonaws.com/academy/static/course.png' alt='course' />
                 <div className='price'>
                     <h2>You Pay <span><BiRupee/></span>99/wk</h2>
                 </div>

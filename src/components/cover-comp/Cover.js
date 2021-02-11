@@ -1,8 +1,8 @@
 import React,{useState,useEffect} from 'react'
 import {BsArrowRightShort,BsArrowRight} from 'react-icons/bs'
 import './style-comp/cover.scss'
-import coverRight from '../../utils/coverRight.png'
-import graph from '../../utils/graph.png'
+// import coverRight from '../../utils/coverRight.png'
+// import graph from '../../utils/graph.png'
 import TextTransition, { presets } from "react-text-transition";
 
 const TEXTS = [
@@ -51,10 +51,10 @@ function Cover() {
             </div> 
            <div className='right'>
                <div className='right-image'>
-                   <img src={coverRight} alt='coverRight' />
+                   <img src='https://perfeth.s3.ap-south-1.amazonaws.com/academy/static/coverRight.png' alt='coverRight' />
                </div>
                <div className='graph-image'>
-                   <img src={graph} alt='graph' />
+                   <img src='https://perfeth.s3.ap-south-1.amazonaws.com/academy/static/graph.png' alt='graph' />
                </div>
            </div>
         </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import './style-comp/footer.scss'
 import {BiCopyright} from 'react-icons/bi'
-import LogoP from '../../utils/LogoP.svg'
+// import LogoP from '../../utils/LogoP.svg'
 import {Link} from 'react-router-dom'
 
 function Footer() {
@@ -39,7 +39,7 @@ function Footer() {
                         <Link to='/privacy-policy'>Privacy policy</Link>
                         <a href='#'>Terms and Condition</a>
                     </div>
-                    <p><span><img src={LogoP} alt='logo'/>
+                    <p><span><img src='https://perfeth.s3.ap-south-1.amazonaws.com/academy/static/LogoP.svg' alt='logo'/>
                     </span>Copyright <span><BiCopyright /></span>2021-Perfeth Academy. All rights reserved.
                     </p>
                 </div>

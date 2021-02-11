@@ -2,7 +2,7 @@ import React,{useEffect,useState} from 'react'
 import {FaFacebookF,FaTwitter} from 'react-icons/fa'
 import {AiFillInstagram} from 'react-icons/ai'
 import {BiMenuAltRight} from 'react-icons/bi'
-import logo from '../../utils/logo.svg'
+// import logo from '../../utils/logo.svg'
 import {Link} from 'react-router-dom'
 
 import './style-comp/navbar.scss'
@@ -54,15 +54,15 @@ const openMobileNav =()=>{
     return (
         <div className='navbar'>
             <Link to='/' className='logo'>
-                <img src={logo} alt='logo' />
+                <img src='https://perfeth.s3.ap-south-1.amazonaws.com/academy/static/logo.svg' alt='logo' />
             </Link>
             <div className='nav-components'>
                 <div className='mobile-menu' onClick={changeActiveState}>
                     <BiMenuAltRight />
                 </div>
                 <div className='nav-links'>
-                    <a href='#about'>About</a>
-                    <a href='#pricing'>Courses</a>
+                    <a href='/#about'>About</a>
+                    <a href='/#pricing'>Courses</a>
                     <a href='https://app.perfeth.com/' target="_blank">Community</a>
                     <Link to='/contact-form'>Contact</Link>
                 </div>
