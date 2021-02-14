@@ -12,7 +12,7 @@ import './style-comp/navbar.scss'
 
 function Navbar() {
 
-    const [mobileNavState,setMobileNavState] = useState(false)
+    const [mobileNavState,setMobileNavState] = useState(true)
 
     useEffect(() => {
         
@@ -20,7 +20,7 @@ function Navbar() {
         return () => {
             window.removeEventListener('scroll',listenToScroll)
         }
-    }, [])
+    }, [mobileNavState])
 const listenToScroll = ()=>{
     if(document.body.scrollTop > 50 || document.documentElement.scrollTop > 50){
         document.querySelector('.navbar').style.boxShadow=' 0px 3px 1px 1px rgba(212,210,212,0.56)'
@@ -32,8 +32,8 @@ const listenToScroll = ()=>{
     }
 }
 
-const changeActiveState=()=>{
-    setMobileNavState(!mobileNavState)
+const changeActiveState=async()=>{
+    await setMobileNavState(!mobileNavState)
     openMobileNav()
 }
 const openMobileNav =()=>{
@@ -43,14 +43,25 @@ const openMobileNav =()=>{
         document.querySelector('.navbar').style.height='100vh'
         document.querySelector('.navbar').style.backgroundColor='rgba(6,6,6,0.98)'
         document.querySelector('body').style.overflowY='hidden'
+        document.querySelector('.logo').style.display='none'
+        document.querySelector('.mobile-menu').style.top='40px'
+        document.querySelector('.mobile-menu').style.height='100px'
     }
     else{
         if(window.innerWidth <=1000){
             document.querySelector('.nav-links').style.display='none'
             document.querySelector('.social-links').style.display='none'
+            document.querySelector('.logo').style.display='flex'
             document.querySelector('.navbar').style.height='13vh'
             document.querySelector('body').style.overflowY='scroll'
-        }        
+            document.querySelector('.mobile-menu').style.top='25%'
+            document.querySelector('.mobile-menu').style.height='50%'
+        } 
+        else{
+            document.querySelector('.nav-links').style.display='flex'
+            document.querySelector('.social-links').style.display='flex'
+        } 
+              
     }
 }
     return (
