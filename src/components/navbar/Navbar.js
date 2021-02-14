@@ -5,6 +5,8 @@ import {BiMenuAltRight} from 'react-icons/bi'
 // import logo from '../../utils/logo.svg'
 import {Link} from 'react-router-dom'
 
+import perfeth from './perfeth.svg'
+
 import './style-comp/navbar.scss'
 
 
@@ -46,7 +48,7 @@ const openMobileNav =()=>{
         if(window.innerWidth <=1000){
             document.querySelector('.nav-links').style.display='none'
             document.querySelector('.social-links').style.display='none'
-            document.querySelector('.navbar').style.height='10vh'
+            document.querySelector('.navbar').style.height='13vh'
             document.querySelector('body').style.overflowY='scroll'
         }        
     }
@@ -54,7 +56,7 @@ const openMobileNav =()=>{
     return (
         <div className='navbar'>
             <Link to='/' className='logo'>
-                <img src='https://perfeth.s3.ap-south-1.amazonaws.com/academy/static/logo.svg' alt='logo' />
+                <img src={perfeth} alt='logo' />
             </Link>
             <div className='nav-components'>
                 <div className='mobile-menu' onClick={changeActiveState}>

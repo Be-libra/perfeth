@@ -4,6 +4,12 @@ import './style-comp/expert.scss'
 function Expert() {
     return (
         <div className='expert'>
+            <div className='expert-figure'>
+                <img src='https://perfeth.s3.ap-south-1.amazonaws.com/academy/static/figureBg.png' alt='figure'/>
+            </div>
+            <div className='expert-rightBg'>
+                <img src='https://perfeth.s3.ap-south-1.amazonaws.com/academy/static/visionRightBg.png' alt='vision-right-bg' />
+            </div>
             <h2>Meet our Experts</h2>
             <div className='expert-crd-cont'>
                 <div className='expert-crd'>

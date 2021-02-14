@@ -3,7 +3,7 @@ import HubspotForm from 'react-hubspot-form'
 
 function Hubspot() {
     return (
-        <div style={{position:'absolute',top:'50%',left:'50%', width:'80%',transform:'translate(-50%,-50%)'}}>
+        <div style={{position:'absolute',top:'60%',left:'50%', width:'80%',transform:'translate(-50%,-50%)'}}>
             <HubspotForm
                 portalId='9292665'
                 formId='bbfe65f8-b568-4ee5-b869-539871c1c7d8'
