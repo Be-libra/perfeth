@@ -1,6 +1,6 @@
 import React,{useEffect,useState} from 'react'
-import {FaFacebookF,FaTwitter} from 'react-icons/fa'
-import {AiFillInstagram} from 'react-icons/ai'
+import {FaFacebookF,FaTwitter,FaLinkedinIn} from 'react-icons/fa'
+// import {AiOutlineTwitter} from 'react-icons/ai'
 import {BiMenuAltRight} from 'react-icons/bi'
 // import logo from '../../utils/logo.svg'
 import {Link} from 'react-router-dom'
@@ -79,12 +79,12 @@ const openMobileNav =()=>{
                     <a href='https://app.perfeth.com/' target="_blank">Community</a>
                     <Link to='/contact-form'>Contact</Link>
                 </div>
-                <div className='social-links'>
+                <div className='social-links'>                   
+                    <a href='https://www.linkedin.com/company/perfeth' className='facebook' target="_blank">
+                        <FaLinkedinIn/>
+                    </a>
                     <a href='https://www.facebook.com/perfeth' className='facebook' target="_blank">
                             <FaFacebookF />
-                    </a>                   
-                    <a href='https://www.linkedin.com/company/perfeth' className='facebook' target="_blank">
-                        <AiFillInstagram />
                     </a>
                     <a href='https://twitter.com/Perfeth1' className='facebook' target="_blank">
                         <FaTwitter />
