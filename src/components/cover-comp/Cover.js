@@ -25,7 +25,7 @@ function Cover() {
     },[]);
 
     const openPopUP=()=>{
-        window.open("https://perfeth.academy/contact-form","_self")
+        window.open("https://perfeth.com/contact-form","_self")
     }
     return (
         <div className='cover-container'>
@@ -45,7 +45,7 @@ function Cover() {
                 </div>
                    <p>Our comprehensive program takes you from foundations to specializations that creates impact.</p>
                    <div className='button' onClick={openPopUP} >
-                        <p>get started</p>
+                        <p>Get Started</p>
                         <BsArrowRight className='arrow-on-hover' />
                    </div>
             </div> 
