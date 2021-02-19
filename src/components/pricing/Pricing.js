@@ -28,9 +28,9 @@ function Pricing() {
             <div className='left-bg'>
                 <img src='https://perfeth.s3.ap-south-1.amazonaws.com/academy/static/pricingLeftBg.png' alt='bg' />
             </div>
-            <div className='right-bg'>
+            {/* <div className='right-bg'>
                 <img src='https://perfeth.s3.ap-south-1.amazonaws.com/academy/static/pricingRightBg.png' alt='right-bg' />
-            </div>
+            </div> */}
             <div className='hexagon-1'>
                 <img src='https://perfeth.s3.ap-south-1.amazonaws.com/academy/static/hexagon.png' alt='hexagon' />
             </div>
