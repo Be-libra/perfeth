@@ -12,27 +12,20 @@ function Footer() {
                 <div className='one'>
                     <div className='left'>
                         <h1>Begin Your Journey</h1>
-                        <p>By the same illusion which lifts the horizon of the sea to the level of the spectator.</p>
+                        <p>Hire with us to make a difference</p>
                     </div>
                     <div className='right'>
                         <Link to='/contact-form'><button>Get Started</button></Link>
-                        <Link to='/contact-form'><button>Contact</button></Link>
                     </div>
                 </div>
                 <div className='two'>
                     <p>Apparently we had reached a great height in the atmosphere.</p>
                     <div className='contact'>
                         <h2>Contact</h2>
-                        <p>Email: contact@perfeth.academy</p>
+                        <p>Email: info@perfeth.com</p>
                         <p>Phone: +91 9711380903</p>
                     </div>
-                    <div className='subscribe'>
-                        <h2>subscribe</h2>
-                        <div className='form'>
-                            <input type='text' placeholder='Email'/>   
-                            <button className='submit'>Submit</button> 
-                        </div>
-                    </div>
+                    
                 </div>
                 <div className='three'>
                     <div className='privacyPolicy'>

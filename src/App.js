@@ -12,6 +12,7 @@ import {
     Switch,
     Route,
   } from "react-router-dom";
+import CC from "CookieConsent"
 
 
 import "animate.css/animate.min.css"
