@@ -12,11 +12,10 @@ function Footer() {
                 <div className='one'>
                     <div className='left'>
                         <h1>Begin Your Journey</h1>
-                        <p>By the same illusion which lifts the horizon of the sea to the level of the spectator.</p>
+                        <p>Hire with us to make a difference</p>
                     </div>
                     <div className='right'>
                         <Link to='/contact-form'><button>Get Started</button></Link>
-                        <Link to='/contact-form'><button>Contact</button></Link>
                     </div>
                 </div>
                 <div className='two'>
@@ -26,18 +25,11 @@ function Footer() {
                         <p>Email: contact@perfeth.com</p>
                         <p>Phone: +91 9711380903</p>
                     </div>
-                    <div className='subscribe'>
-                        <h2>subscribe</h2>
-                        <div className='form'>
-                            <input type='text' placeholder='Email'/>   
-                            <button className='submit'>Submit</button> 
-                        </div>
-                    </div>
+                    
                 </div>
                 <div className='three'>
                     <div className='privacyPolicy'>
                         <Link to='/privacy-policy'>Privacy policy</Link>
-                        <a href='#'>Terms and Condition</a>
                     </div>
                     <p><span><img src='https://perfeth.s3.ap-south-1.amazonaws.com/academy/static/LogoP.svg' alt='logo'/>
                     </span>Copyright <span><BiCopyright /></span>2021-Perfeth Academy. All rights reserved.

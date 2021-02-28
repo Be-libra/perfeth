@@ -304,7 +304,7 @@ const PrivacyPolicy =() =>{
             <p><span style={{fontWeight: '400'}}>The Company has a Grievance Officer to address your concerns regarding data safety, privacy, discrepancies and the usage of Platform. We will resolve the issues raised by you within 30 (thirty) days from receiving them. You may contact the Grievance Officer at:</span></p>
             <p>&nbsp;</p>
             <p><span style={{fontWeight: '400'}}>Perfeth Academy, Dehradun, Uttarakhand</span></p>
-            <p><span style={{fontWeight: '400'}}>Email: </span><a href="mailto:parag@perfethacademy.com"><span style={{fontWeight: '400'}}>parag@perfeth.academy</span><span style={{fontWeight: '400'}}><br /></span></a></p>
+            <p><span style={{fontWeight: '400'}}>Email: </span><a href="mailto:info@perfeth.com"><span style={{fontWeight: '400'}}>parag@perfeth.academy</span><span style={{fontWeight: '400'}}><br /></span></a></p>
             <p><br /><br /><br /></p>
             <h1 style={{color:'#FE9600',textAlign:'center',marginBottom:'3%'}}><strong>INTELLECTUAL PROPERTY POLICY</strong></h1>
             <p>&nbsp;</p>
