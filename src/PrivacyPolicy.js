@@ -304,7 +304,7 @@ const PrivacyPolicy =() =>{
             <p><span style={{fontWeight: '400'}}>The Company has a Grievance Officer to address your concerns regarding data safety, privacy, discrepancies and the usage of Platform. We will resolve the issues raised by you within 30 (thirty) days from receiving them. You may contact the Grievance Officer at:</span></p>
             <p>&nbsp;</p>
             <p><span style={{fontWeight: '400'}}>Perfeth Academy, Dehradun, Uttarakhand</span></p>
-            <p><span style={{fontWeight: '400'}}>Email: </span><a href="mailto:info@perfeth.com"><span style={{fontWeight: '400'}}>parag@perfeth.academy</span><span style={{fontWeight: '400'}}><br /></span></a></p>
+            <p><span style={{fontWeight: '400'}}>Email: </span><a href="mailto:info@perfeth.com"><span style={{fontWeight: '400'}}>info@perfeth.com</span><span style={{fontWeight: '400'}}><br /></span></a></p>
             <p><br /><br /><br /></p>
             <h1 style={{color:'#FE9600',textAlign:'center',marginBottom:'3%'}}><strong>INTELLECTUAL PROPERTY POLICY</strong></h1>
             <p>&nbsp;</p>
@@ -378,7 +378,7 @@ const PrivacyPolicy =() =>{
             </ul>
             <p>&nbsp;</p>
             <p>&nbsp;</p>
-            <p><span style={{fontWeight: '400'}}>Designated agent for form of reported infringement can be contacted in the following manner: Via Email: </span><a href="mailto:contact@perfethacademy.com%20"><span style={{fontWeight: '400'}}>contact@perfeth.academy </span></a><span style={{fontWeight: '400'}}>and </span><a href="mailto:parag@perfethacademy.com"><span style={{fontWeight: '400'}}>parag@perfeth.academy</span><span style={{fontWeight: '400'}}><br /></span></a></p>
+            <p><span style={{fontWeight: '400'}}>Designated agent for form of reported infringement can be contacted in the following manner: Via Email: </span><a href="mailto:info@perfeth.com%20"><span style={{fontWeight: '400'}}>info@perfeth.com </span></a><span style={{fontWeight: '400'}}>and </span><a href="mailto:parag@perfethacademy.com"><span style={{fontWeight: '400'}}>parag@perfeth.academy</span><span style={{fontWeight: '400'}}><br /></span></a></p>
             <h1 style={{fontSize:'28px'}}><strong>Infringement Claim Form</strong></h1>
             <p>&nbsp;</p>
             <table className='privacy-table'>

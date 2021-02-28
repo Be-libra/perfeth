@@ -22,7 +22,7 @@ function Footer() {
                     <p>Apparently we had reached a great height in the atmosphere.</p>
                     <div className='contact'>
                         <h2>Contact</h2>
-                        <p>Email: contact@perfeth.com</p>
+                        <p>Email: info@perfeth.com</p>
                         <p>Phone: +91 9711380903</p>
                     </div>
                     
