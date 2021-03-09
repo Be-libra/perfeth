@@ -23,6 +23,7 @@ import Hubspot from './components/cover-comp/Hubspot.js'
 import Expert from './components/experts/Expert.js'
 import Work from './components/workwithus/Work.js'
 import SheCodes from './components/she-codes/SheCodes.js'
+import CookieConsent from "react-cookie-consent";
 
 function App() {
      
@@ -46,7 +47,23 @@ function App() {
 
     return (
         <div style={{padding:'0',margin:'0',width:'100%'}}>
-            
+            <CookieConsent
+                location="bottom"
+                buttonText="OK"
+                buttonStyle={{
+                    background:'#4E65BC',
+                    color:'#ffffff',
+                    fontFamily:"'Montserrat',sans-serif",
+                    fontSize:'16px',
+                    fontWeight:'500'
+                }}
+                cookieName="cookie-consent"
+                style={{ background: "#2B373B",fontSize:'18px',fontFamily:"'Montserrat',sans-serif",textAlign:'center' }}
+                expires={150}
+                >
+                We use cookies to ensure that we give you the best experience on our website. If you 
+                continue to use this site we will assume that you are happy with it.
+            </CookieConsent>
             <Router>
                 <Navbar />
                 <Switch>
