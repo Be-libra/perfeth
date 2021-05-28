@@ -29,7 +29,7 @@ function Footer() {
                 </div>
                 <div className='three'>
                     <div className='privacyPolicy'>
-                        <Link to='/privacy-policy'>Privacy policy</Link>
+                        <a href='https://termify.io/privacy-policy/1622011933'>Privacy policy</a>
                     </div>
                     <p><span><img src='https://perfeth.s3.ap-south-1.amazonaws.com/academy/static/LogoP.svg' alt='logo'/>
                     </span>Copyright <span><BiCopyright /></span>2021-Perfeth Academy. All rights reserved.
